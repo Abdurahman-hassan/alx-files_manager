@@ -1,9 +1,9 @@
 import { ObjectId } from 'mongodb';
 import mime from 'mime-types';
 import Queue from 'bull';
-import userUtils from '../utils/user';
-import fileUtils from '../utils/file';
-import basicUtils from '../utils/basic';
+import userUtils from '../utils/user'; // eslint-disable-line
+import fileUtils from '../utils/file'; // eslint-disable-line
+import basicUtils from '../utils/basic'; // eslint-disable-line
 
 const FOLDER_PATH = process.env.FOLDER_PATH || '/tmp/files_manager';
 

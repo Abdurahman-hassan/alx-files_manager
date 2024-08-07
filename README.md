@@ -92,7 +92,7 @@ Of course, this kind of service already exists in the real life - it’s a learn
 }
 ```
 
-### `.eslintrc.js`
+### `..eslintrc.js`
 + Click to show/hide file contents
 ```ruby
 module.exports = {
